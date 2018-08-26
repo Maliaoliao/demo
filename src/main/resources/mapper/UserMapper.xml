@@ -8,7 +8,7 @@
         <result column="phone" property="phone" jdbcType="VARCHAR" />
         <result column="pwd" property="pwd" jdbcType="VARCHAR" />
     </resultMap>
-    <select id="selectAllUser" resultType="BaseResultMap">
+    <select id="selectAllUser" resultType="com.example.demo.dto.User">
       select u.id,u.name,u.phone,u.email,u.pwd from fl_user u
     </select>
 </mapper>

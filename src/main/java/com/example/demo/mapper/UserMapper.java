@@ -1,7 +1,7 @@
 package com.example.demo.mapper;
 
 import com.example.demo.dto.User;
-import com.sun.tools.javac.util.List;
+import java.util.List;
 import org.apache.ibatis.annotations.Mapper;
 
 /**
